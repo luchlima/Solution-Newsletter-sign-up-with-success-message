@@ -1,0 +1,165 @@
+h1 {
+    font-family: "Roboto-Regular", sans-serif; 
+    margin-left: 10px;
+    color: hsl(234, 29%, 20%);
+  }
+  body {
+    width: 375px;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+  
+  }
+
+  #firstCard {
+    width: 345px;
+    font-size: 16px;
+    margin: 0 14px 0 14px;
+    display: flex;
+    flex-direction: column;
+  }
+  #secondCard {
+    width: 275px;
+  }
+  ul {
+    list-style-image: url(./assets/images/icon-list.svg);
+    margin: 10px 10px 10px 0;
+  }
+  li{
+    padding: 8px;
+  }
+  #typetextOne {
+    margin: 0 10px 10px 10px;
+  }
+  #carEmail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #cardSecondEmail{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  h5{
+    margin: 10px 10px 0 10px;
+    color: hsl(234, 29%, 20%);
+    padding: 15px 10px 0 16px;
+    font-family: "Roboto-Regular", sans-serif;
+  }
+  #btn{
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 6px;
+    text-align: center;
+    width: 323px;
+    height: 40px;
+    cursor: pointer;
+  }
+  #btn:hover{
+    background-color:hsl(4, 100%, 67%);
+    border: hsl(4, 100%, 67%);
+    box-shadow: 0 4px 6px 0 hsla(4, 100%, 67%, 0.75);
+  }
+  #email{
+    color: hsl(231, 7%, 60%);
+    background-color: white;
+    border: 2px solid hsl(231, 7%, 60%);
+    border-radius: 6px;
+    width: 300px;
+    height: 40px;
+    padding: 0 0 0 20px;
+    margin: 0 0 15px;
+    cursor: pointer;
+  }
+  #email:focus{
+    color: hsl(234, 29%, 20%);
+    border: hsl(234, 29%, 20%);
+  }
+  #formAll{
+    margin: 10px 10px 0 10px;
+    padding: 0 10px 0 15px;
+  }
+  .attribution{
+    position: relative;
+    margin: 10px;
+    font-size: 15px;
+  }
+  #spanEmail{
+    position: absolute;
+    top: 360px;
+    left: 595px;
+    font-size: 12px;
+    color: hsl(4, 100%, 67%);
+  }
+  
+  @media screen and (min-width: 376px){
+    body{
+        width: 1440px;
+        background-color: hsl(235, 18%, 26%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #cardAll{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        width: 760px;
+        height: 480px;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+
+    }
+    .imgTroca {
+        content: url(./assets/images/illustration-sign-up-desktop.svg);
+        width: 350px;
+        padding: 10px 10px 10px 0px;
+        margin: 0 30px 0;
+        margin-right: 355px;
+    }  
+    #cardSecondEmail{
+        margin-top: 270px;
+        margin-left: 385px;
+    }
+    #firstCard{
+        position: absolute;
+        margin-right: 360px;
+    }
+    h1{
+        font-family: 'Roboto-Regular', sans-serif;
+        font-size: 43px;
+        margin: 35px 0px 30px 12px;
+    }
+    ul{
+        position: absolute;
+        margin-left:2px;
+        margin-top: 145px
+
+    }
+    li{
+        /* padding: 2px 0px 0 8px; */
+        font-size: 13px;
+        /* margin: 10px 0 10px 0; */
+    }
+    .attribution{
+        background-color:  white;
+    }
+    #typetextOne{
+        font-size: 14.5px;
+        position: absolute;
+        margin-top: 105px;
+    }
+    #spanEmail{
+      position: absolute;
+      top: 360px;
+      left: 595px;
+      font-size: 12px;
+      color: hsl(4, 100%, 67%);
+    }
+  
+  }
